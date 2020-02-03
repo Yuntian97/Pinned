@@ -1,0 +1,92 @@
+html,
+.container{
+    background: #f7f7f7 url(https://css-tricks.com/examples/RoundButtons/images/bg.png) repeat center top;
+}
+
+#map {
+    padding-top: 5px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width:45px; height:45px
+}
+
+h4{
+    margin-top: 1px;
+	color: #8382BF;
+}
+
+.FriendList{
+    padding-top: 10px;
+    display: block;
+    background: background: #f7f7f7 url(https://css-tricks.com/examples/RoundButtons/images/bg.png) repeat center top;
+}
+
+.friendsBox{
+    display: inline-block;
+}
+
+.thisName{
+    display: inline-block;
+}
+
+.ViewButton{
+    text-align:center;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+.progress{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 200px;
+   height: 7px;
+}
+
+.pageEnd {
+    display: inline;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #008CBA;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 75px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
